@@ -24,35 +24,35 @@
 		android:layout_height="wrap_content"
 		android:layout_margin="5dip"
 		android:orientation="horizontal"
+		android:id="@+id/single_text"
+		android:checkedButton="@+id/button_one1">
+		<RadioButton android:id="@+id/button_one1"
+		    style="@style/SegmentButton"
+			android:text="One"
+			 />
+	</com.makeramen.segmented.SegmentedRadioGroup>
+	<com.makeramen.segmented.SegmentedRadioGroup
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="5dip"
+		android:orientation="horizontal"
 		android:id="@+id/segment_text"
 		android:checkedButton="@+id/button_one">
 		<RadioButton android:id="@id/button_one"
-			android:minWidth="40dip"
-			android:minHeight="33dip"
 			android:text="One"
-			android:textAppearance="?android:attr/textAppearanceSmall"
-			android:button="@null"
-			android:gravity="center"
-			android:textColor="@color/radio_colors" />
+			android:layout_weight="1"
+			style="@style/SegmentButton" />
 		<RadioButton android:id="@+id/button_two"
-			android:minWidth="40dip"
-			android:minHeight="33dip"
 			android:text="Two"
-			android:button="@null"
-			android:gravity="center"
-			android:textAppearance="?android:attr/textAppearanceSmall"
-			android:textColor="@color/radio_colors" />
+			android:layout_weight="1"
+			style="@style/SegmentButton" />
 		<RadioButton android:id="@+id/button_three"
-			android:minWidth="40dip"
-			android:minHeight="33dip"
 			android:text="Three"
-			android:button="@null"
-			android:gravity="center"
-			android:textAppearance="?android:attr/textAppearanceSmall"
-			android:textColor="@color/radio_colors" />
+			android:layout_weight="1"
+			style="@style/SegmentButton" />
 	</com.makeramen.segmented.SegmentedRadioGroup>
-		<com.makeramen.segmented.SegmentedRadioGroup
-		android:layout_width="wrap_content"
+	<com.makeramen.segmented.SegmentedRadioGroup
+		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:layout_margin="5dip"
 		android:orientation="horizontal"
@@ -60,18 +60,15 @@
 		android:checkedButton="@+id/button_add">
 			<com.makeramen.segmented.CenteredRadioImageButton
 				android:id="@id/button_add"
-				android:minWidth="40dip"
-				android:minHeight="33dip"
+				style="@style/SegmentButton" 
 				android:button="@android:drawable/ic_menu_add" />
 			<com.makeramen.segmented.CenteredRadioImageButton
 				android:id="@+id/button_call"
-				android:minWidth="40dip"
-				android:minHeight="33dip"
+				style="@style/SegmentButton" 
 				android:button="@android:drawable/ic_menu_call" />
 			<com.makeramen.segmented.CenteredRadioImageButton
 				android:id="@+id/button_camera"
-				android:minWidth="40dip"
-				android:minHeight="33dip"
+				style="@style/SegmentButton" 
 				android:button="@android:drawable/ic_menu_camera" />
 	</com.makeramen.segmented.SegmentedRadioGroup>
 </LinearLayout>

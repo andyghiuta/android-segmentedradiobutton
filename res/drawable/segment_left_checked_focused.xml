@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/segment_left_default_bg" />
+    <item 
+        android:bottom="30dip" 
+        android:top="@dimen/button_stroke_width" 
+        android:left="@dimen/button_stroke_width" 
+        android:right="@dimen/button_stroke_width" 
+        android:drawable="@drawable/segment_left_overlay_top"
+        />
+    <item 
+        android:top="30dip"
+        android:bottom="@dimen/button_stroke_width" 
+        android:left="@dimen/button_stroke_width" 
+        android:right="@dimen/button_stroke_width"
+        android:drawable="@drawable/segment_left_overlay_bottom"
+        />
+</layer-list>
