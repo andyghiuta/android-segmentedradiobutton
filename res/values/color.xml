@@ -6,4 +6,7 @@
     <color name="button_color_pressed_stroke">#AA5AC2E9</color>
     <color name="button_color_focused">#AA5AC2E9</color>
     <color name="button_color_focused_stroke">#ff5AC2E9</color>
+    <color name="button_overlay_start_top">#80000000</color>
+    <color name="button_overlay_start_bottom">#40000000</color>
+    <color name="button_overlay_end">#00000000</color>
 </resources>
